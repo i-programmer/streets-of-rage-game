@@ -1,0 +1,133 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    position: relative;
+	background: url('../img/common/streets-of-rage.jpg') no-repeat fixed; 
+	background-size: cover;
+}
+
+canvas {
+    display: block;
+    margin: 0 auto;
+    top: 320px;
+    //top: 50px;
+    position: relative;
+    border: 10px solid #000;
+}
+
+#controls {
+	color: #fff; 
+	display: block; 
+	position: absolute; 
+	top: 30px; 
+	left: 30px; 
+	border: 5px solid #000000; 
+	padding: 10px; 	
+	text-align: center;
+}
+
+div#volume {
+	position: absolute;
+	top: 150px;
+	left: 31px;
+	color: white;
+}
+
+input[type=range] {
+	position: absolute;
+	left: 90px;
+	top: -5px;
+}
+input[type=range] {
+	-webkit-appearance: none;
+	background: transparent;
+	margin: 0;
+	padding: 0;
+	width: 198px;
+}
+input[type=range]:focus {
+	outline: none;
+}
+input[type=range]::-webkit-slider-runnable-track {
+	width: 100%;
+	height: 30px;
+	cursor: pointer;
+	animate: 0.2s;
+	box-shadow: 1px 1px 1px #000000;
+	background: #3D2126;
+	border-radius: 5px;
+	border: 1px solid #000000;
+}
+input[type=range]::-webkit-slider-thumb {
+	box-shadow: 1.8px 1.8px 5.9px rgba(255, 0, 0, 0.49), 0px 0px 1.8px rgba(255, 26, 26, 0.49);
+	border: 2.9px solid #941e00;
+	height: 28px;
+	width: 36px;
+	border-radius: 28px;
+	background: rgba(255, 55, 56, 0.93);
+	cursor: pointer;
+	-webkit-appearance: none;
+
+}
+input[type=range]:focus::-webkit-slider-runnable-track {
+	background: #3D2126;
+}
+input[type=range]::-moz-range-track {
+	width: 100%;
+	height: 30px;
+	cursor: pointer;
+	animate: 0.2s;
+	box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+	background: #3D2126;
+	border-radius: 5px;
+	border: 1px solid #000000;
+}
+input[type=range]::-moz-range-thumb {
+	box-shadow: 1.8px 1.8px 5.9px rgba(255, 0, 0, 0.49), 0px 0px 1.8px rgba(255, 26, 26, 0.49);
+	border: 2.9px solid #941e00;
+
+	height: 30px;
+	width: 41px;
+	border-radius: 16px;
+	background: #FF3738;
+	cursor: pointer;
+}
+input[type=range]::-ms-track {
+	width: 100%;
+	height: 30px;
+	cursor: pointer;
+	animate: 0.2s;
+	background: transparent;
+	border-color: transparent;
+	color: transparent;
+}
+input[type=range]::-ms-fill-lower {
+	background: #5E333B;
+	border: 1px solid #000000;
+	border-radius: 10px;
+	box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+}
+input[type=range]::-ms-fill-upper {
+	background: #5E333B;
+	border: 1px solid #000000;
+	border-radius: 10px;
+	box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+}
+input[type=range]::-ms-thumb {
+	box-shadow: 1.8px 1.8px 5.9px rgba(255, 0, 0, 0.49), 0px 0px 1.8px rgba(255, 26, 26, 0.49);
+	border: 2.9px solid #941e00;
+	width: 36px;
+	border-radius: 28px;
+	background: rgba(255, 55, 56, 0.93);
+	cursor: pointer;
+	height: 28px;
+}
+input[type=range]:focus::-ms-fill-lower {
+	background: #5E333B;
+}
+input[type=range]:focus::-ms-fill-upper {
+	background: #5E333B;
+}

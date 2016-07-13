@@ -1,0 +1,164 @@
+{"frames": [
+
+{
+	"filename": "enemy_01",
+	"frame": {"x":462,"y":2,"w":62,"h":70},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":62,"h":70},
+	"sourceSize": {"w":62,"h":70}
+},
+{
+	"filename": "enemy_02",
+	"frame": {"x":273,"y":2,"w":47,"h":72},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":47,"h":72},
+	"sourceSize": {"w":47,"h":72}
+},
+{
+	"filename": "enemy_03",
+	"frame": {"x":84,"y":2,"w":70,"h":74},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":70,"h":74},
+	"sourceSize": {"w":70,"h":74}
+},
+{
+	"filename": "enemy_04",
+	"frame": {"x":156,"y":2,"w":67,"h":74},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":67,"h":74},
+	"sourceSize": {"w":67,"h":74}
+},
+{
+	"filename": "enemy_05",
+	"frame": {"x":2,"y":2,"w":39,"h":75},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":39,"h":75},
+	"sourceSize": {"w":39,"h":75}
+},
+{
+	"filename": "enemy_06",
+	"frame": {"x":43,"y":2,"w":39,"h":75},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":39,"h":75},
+	"sourceSize": {"w":39,"h":75}
+},
+{
+	"filename": "enemy_07",
+	"frame": {"x":225,"y":2,"w":46,"h":74},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":46,"h":74},
+	"sourceSize": {"w":46,"h":74}
+},
+{
+	"filename": "enemy_08",
+	"frame": {"x":842,"y":2,"w":40,"h":44},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":40,"h":44},
+	"sourceSize": {"w":40,"h":44}
+},
+{
+	"filename": "enemy_09",
+	"frame": {"x":692,"y":2,"w":46,"h":67},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":46,"h":67},
+	"sourceSize": {"w":46,"h":67}
+},
+{
+	"filename": "enemy_10",
+	"frame": {"x":740,"y":2,"w":55,"h":63},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":55,"h":63},
+	"sourceSize": {"w":55,"h":63}
+},
+{
+	"filename": "enemy_11",
+	"frame": {"x":797,"y":2,"w":43,"h":63},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":43,"h":63},
+	"sourceSize": {"w":43,"h":63}
+},
+{
+	"filename": "enemy_12",
+	"frame": {"x":884,"y":2,"w":70,"h":32},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":70,"h":32},
+	"sourceSize": {"w":70,"h":32}
+},
+{
+	"filename": "enemy_13",
+	"frame": {"x":842,"y":48,"w":79,"h":25},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":79,"h":25},
+	"sourceSize": {"w":79,"h":25}
+},
+{
+	"filename": "enemy_14",
+	"frame": {"x":416,"y":2,"w":44,"h":71},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":44,"h":71},
+	"sourceSize": {"w":44,"h":71}
+},
+{
+	"filename": "enemy_15",
+	"frame": {"x":322,"y":2,"w":45,"h":71},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":45,"h":71},
+	"sourceSize": {"w":45,"h":71}
+},
+{
+	"filename": "enemy_16",
+	"frame": {"x":369,"y":2,"w":45,"h":71},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":45,"h":71},
+	"sourceSize": {"w":45,"h":71}
+},
+{
+	"filename": "enemy_17",
+	"frame": {"x":526,"y":2,"w":52,"h":70},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":52,"h":70},
+	"sourceSize": {"w":52,"h":70}
+},
+{
+	"filename": "enemy_18",
+	"frame": {"x":580,"y":2,"w":54,"h":69},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":54,"h":69},
+	"sourceSize": {"w":54,"h":69}
+},
+{
+	"filename": "enemy_19",
+	"frame": {"x":636,"y":2,"w":54,"h":68},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":54,"h":68},
+	"sourceSize": {"w":54,"h":68}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "enemy_1.png",
+	"format": "RGBA8888",
+	"size": {"w":956,"h":79},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:c2037d140694793fc7d10cc53bced4e1:257472611bd57f657159220a7ed16269:502306f662c87c9cb29436b154ca5ccd$"
+}
+}

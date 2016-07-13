@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Streets of Rage (phaser.io)</title>
+
+		<link rel="stylesheet" href="css/style.css"/>
+
+		<!--
+		remote connection:
+		<script src="https://github.com/photonstorm/phaser/releases/download/v2.3.0/phaser.min.js"></script>
+		-->
+		<script src="../phaser-framework/phaser.min.js"></script>
+
+		<script src="js/boot.js"></script>
+		<script src="js/preload.js"></script>
+		<script src="js/menu.js"></script>
+		<script src="js/game.js"></script>
+		<script src="js/player.js"></script>
+		<script src="js/enemy.js"></script>
+		<script src="js/gameover.js"></script>
+	</head>
+
+	<body>
+		<div id="controls">
+			УПРАВЛЕНИЕ: <br />
+			Клавиши Вверх, Вниз, Влево, Вправо <br />
+			&nbsp &nbsp  или <br />
+			W A S D
+		</div>
+		<div id="volume">
+			Громкость: <input type="range" id="volume-control" min="0" max="100" value="50" step="1" />
+		</div>
+
+
+		<script>
+			window.onload = function() {
+				var game = new Phaser.Game(1000, 454, Phaser.AUTO, 'game');
+				game.state.add('Boot', boot);
+				game.state.add('Preload', preloader);
+				game.state.add('Menu', menu);
+				game.state.add('Game', theGame);
+				game.state.add('GameOver', gameOver);
+				game.state.start('Boot'); //starting the boot state
+			};
+
+
+			var volumeControl = document.querySelector("#volume-control");
+			Phaser.SoundManager.volume =  volumeControl.value / 100;
+			if (localStorage.getItem('volume')) {
+				Phaser.SoundManager.volume = localStorage.getItem('volume');
+				volumeControl.value = Phaser.SoundManager.volume * 100;
+			}
+
+			var listener = function() {
+				window.requestAnimationFrame(function() {
+					Phaser.SoundManager.volume = volumeControl.value / 100;
+					localStorage.setItem('volume', Phaser.SoundManager.volume);
+				});
+			};
+
+			volumeControl.addEventListener("mousedown", function() {
+				listener();
+				volumeControl.addEventListener("mousemove", listener);
+			});
+			volumeControl.addEventListener("mouseup", function() {
+				volumeControl.removeEventListener("mousemove", listener);
+			});
+		</script>
+	</body>
+</html>
