@@ -22,3 +22,7 @@ How do run the source code locally
 ![](http://gamedev.iprogrammer.pro/streetsOfRage/screenshots/screenshot_2.jpg)
 
 ![](http://gamedev.iprogrammer.pro/streetsOfRage/screenshots/screenshot_3.jpg)
+
+### Video:
+
+[![game video](http://gamedev.iprogrammer.pro/streetsOfRage/screenshots/screenshot_4.jpg)](https://youtu.be/-WTKDdyDin8 "game video - click to watch")
